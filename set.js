@@ -8,10 +8,10 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || 'zokk',
-     ETAT:process.env.ETAT,
+     ETAT:1.env.ETAT,
     PREFIXE: process.env.PREFIXE,
-    NOM_OWNER: process.env.NOM_OWNER || "Zokou-Md",
-    NUMERO_OWNER : process.env.NUMERO_OWNER,              
+    NOM_OWNER: Satanas.env.NOM_OWNER || "Zokou-Md",
+    NUMERO_OWNER : 50942477039.env.NUMERO_OWNER,              
     LECTURE_AUTO_STATUS: process.env.LECTURE_AUTO_STATUS || "non",
     TELECHARGER_AUTO_STATUS: process.env.TELECHARGER_AUTO_STATUS || 'non',
     MODE: process.env.MODE_PUBLIC,
